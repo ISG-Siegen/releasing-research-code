@@ -58,6 +58,29 @@ Our model achieves the following performance on :
 
 > 📋Include a link to the augmented dataset D', and, if available, the Excel sheet containing additional calculations and visualizations. 
 
+## List of Files
+
+### Data
+Original Dataset:
+Training Data: 
+Test Data: 
+Validation Data:
+Augmented Dataset with Results:
+
+### Models
+Baseline 1
+Baseline 2
+Your Model 1
+Your Model 2
+Your Model 3
+
+### Visualizations
+URL to a folder that contains all tables and figures from the publication
+
+### Publication
+Final Publication
+Pre-Print
+
 
 ## Contributing
 
