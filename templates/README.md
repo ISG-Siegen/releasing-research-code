@@ -56,6 +56,8 @@ Our model achieves the following performance on :
 
 > 📋Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. 
 
+> 📋Include a link to the augmented dataset D', and, if available, the Excel sheet containing additional calculations and visualizations. 
+
 
 ## Contributing
 
