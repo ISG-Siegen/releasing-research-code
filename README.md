@@ -69,7 +69,7 @@ You can further help the user understand and contextualize your results by linki
 
 To make it easy for others to check your results, you should upload a copy of the dataset, augmented with the predictions made by your algorithms, performance measures (e.g. error) and intermediate steps. This means, you augment your dataset (which contains target y) with the predicted ^y for each algorithm A, and the calculated performance metric (e.g. error, i.e. difference between actual target y and predicted target ^y). If you work with meta-learning, you also need to additionally include tagerts, predictions and errors of the meta-learner. If the original dataset is too large, just provide the augmented dataset, with unique IDs to the original instances in the dataset
 
-![Illustration of Augmented Dataset](https://www.dropbox.com/s/ctx3sv6grwgfyq9/augmented%20dataset%20for%20publishing%20results.png?dl=1)
+![Illustration of Augmented Dataset](http://beel.org/beelgroup/illustrations/augmenteddatasetforpublishingresults.png)
 
 
 
