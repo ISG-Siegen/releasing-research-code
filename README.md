@@ -23,6 +23,7 @@ The ML Code Completness Checklist consists of five items:
 3. **Evaluation code**
 4. **Pre-trained models**
 5. **README file including table of results accompanied by precise commands to run/produce those results**
+6. **Dataset, Augmented with Results [Extension by Joeran]**
 
 We verified that repositories that check more items on the checklist also tend to have a higher number of GitHub stars. This was verified by analysing official NeurIPS 2019 repositories - more details in the [blog post](https://medium.com/paperswithcode/ml-code-completeness-checklist-e9127b168501). We also provide the [data](notebooks/code_checklist-neurips2019.csv) and [notebook](notebooks/code_checklist-analysis.pdf) to reproduce this analysis from the post. 
 
@@ -63,6 +64,14 @@ Lastly, some users might want to try out your model to see if it works on some e
 Adding a table of results into README.md lets your users quickly understand what to expect from the repository (see the [README.md template](templates/README.md) for an example). Instructions on how to reproduce those results (with links to any relevant scripts, pretrained models etc) can provide another entry point for the user and directly facilitate reproducibility. In some cases, the main result of a paper is a Figure, but that might be more difficult for users to understand without reading the paper. 
 
 You can further help the user understand and contextualize your results by linking back to the full leaderboard that has up-to-date results from other papers. There are [multiple leaderboard services](#results-leaderboards) where this information is stored.  
+
+#### 6. Dataset, Augmented with Results [Extension by Joeran]
+
+To make it easy for others to check your results, you should upload a copy of the dataset, augmented with the predictions made by your algorithms, performance measures (e.g. error) and intermediate steps. This means, you augment your dataset (which contains target y) with the predicted ^y for each algorithm A, and the calculated performance metric (e.g. error, i.e. difference between actual target y and predicted target ^y). If you work with meta-learning, you also need to additionally include tagerts, predictions and errors of the meta-learner. If the original dataset is too large, just provide the augmented dataset, with unique IDs to the original instances in the dataset
+
+![Illustration of Augmented Dataset](https://www.dropbox.com/s/ctx3sv6grwgfyq9/augmented%20dataset%20for%20publishing%20results.png?dl=1)
+
+
 
 ## 🎉 Additional awesome resources for releasing research code
 
